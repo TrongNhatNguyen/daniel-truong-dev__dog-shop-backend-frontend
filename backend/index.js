@@ -77,7 +77,8 @@ const dogData = [
     },
 ];
 
-app.get('/', (req, res) => {
+// tạo đường link API cho frontend (file: app.js) dùng:
+app.get('/v1/dogs', (req, res) => {
     // res.send('hello world from hugo!');
     res.status(200).json(dogData);
 });

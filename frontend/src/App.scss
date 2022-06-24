@@ -1,44 +1,12 @@
-@font-face {
-    font-family: 'Dongle-Regular';
-    src: local('Dongle-Regular'), url('./assets/fonts/dongle/Dongle-Regular.ttf') format('truetype');
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    font-size: calc(25px + 2vmin);
-    color: ghostwhite;
-    background-color: #282c34;
-    font-family: 'Dongle-Regular';
-}
-
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-    outline-width: 0;
-}
-
-// -------------------------
 .App {
     text-align: center;
 
-    .container {
+    .page-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0.2rem;
+        margin-top: 0.8rem;
     }
 }
 

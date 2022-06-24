@@ -1,0 +1,24 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #cc8e35;
+
+    // ==================================
+    * {
+        color: #ecf0f1;
+        padding: 0 1.2rem;
+        text-decoration: none;
+        font-size: 1.8rem;
+        transition: 400ms ease-in-out;
+    }
+
+    *:hover {
+        background-color: #2a7ea5;
+    }
+    *.active {
+        background-color: #227093;
+    }
+}
